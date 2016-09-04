@@ -5,12 +5,11 @@ require 'basic_betch/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "basic_betch"
-  spec.version       = BasicBetch::VERSION
+  spec.version       = Basicbetch::VERSION
   spec.authors       = ["Julie Graceffa"]
   spec.email         = ["julie.graceffa@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.description   = %q{Check if you're basic.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -24,7 +23,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.executables   << "basic_betch"
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.12"
