@@ -1,3 +1,3 @@
-module Basic
+module BasicBetch
   VERSION = "0.0.1"
 end

@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'basic/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "basic"
-  spec.version       = Basic::VERSION
+  spec.name          = "basic_betch"
+  spec.version       = BasicBetch::VERSION
   spec.authors       = ["Julie Graceffa"]
   spec.email         = ["julie.graceffa@gmail.com"]
 

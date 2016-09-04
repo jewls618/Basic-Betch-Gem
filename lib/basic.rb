@@ -1,6 +1,6 @@
-require "basic/version"
+require "basic_betch/version"
 
-class Basic
+class BasicBetch
   attr_reader :name, :starbucks_order, :uggs, :instafood, :north_face, :yoga_pants, :role_model, :tv_show
   attr_accessor :basic_items
 
@@ -91,17 +91,17 @@ class Basic
 
   def is_basic?
     if @basic_items.size <= 1
-      print "\nCongrats, you're not basic!\n"
+      print "\nCongrats, you're not a basic betch!\n"
     elsif @basic_items.size > 1 && basic_items.size <= 2
       print "\nWhomp whomp, you're kinda basic\n"
     elsif @basic_items.size > 2 && basic_items.size <= 3
       print "\nSorry, you're pretty basic\n"
     elsif @basic_items.size > 3 && basic_items.size <= 4
-      print "\nYou're super basic\n"
+      print "\nYou're a super basic betch\n"
     else
-      print "\nYou couldn't be more of a basic biatch...\n"
+      print "\nYou couldn't be more of a basic betch...\n"
     end
   end
 end
 
-Basic.new
+BasicBetch.new
