@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class BasicBetchTest < Minitest::Test
+class BasicbetchTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::BasicBetch::VERSION
+    refute_nil ::Basicbetch::VERSION
   end
 
   def test_it_does_something_useful
