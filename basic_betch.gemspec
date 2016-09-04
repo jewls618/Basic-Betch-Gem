@@ -5,7 +5,7 @@ require 'basic_betch/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "basic_betch"
-  spec.version       = BasicBetch::VERSION
+  spec.version       = Basicbetch::VERSION
   spec.authors       = ["Julie Graceffa"]
   spec.email         = ["julie.graceffa@gmail.com"]
 
