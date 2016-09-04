@@ -1,6 +1,6 @@
 require "basic_betch/version"
 
-class BasicBetch
+class Basicbetch
   attr_reader :name, :starbucks_order, :uggs, :instafood, :north_face, :yoga_pants, :role_model, :tv_show
   attr_accessor :basic_items
 
@@ -104,4 +104,4 @@ class BasicBetch
   end
 end
 
-BasicBetch.new
+Basicbetch.new
