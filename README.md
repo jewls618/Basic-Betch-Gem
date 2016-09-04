@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Call basic_betch to get if you're basic!
+Call basic_betch to check if you're basic!
 
 ## Development
 
