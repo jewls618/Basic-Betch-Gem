@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'giggle'
+
+puts Basicbetch.new
